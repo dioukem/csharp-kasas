@@ -45,11 +45,11 @@ namespace DelegateDemo
             Display allMeth = d1 + d2;
             allMeth += d3;
 
-            allMeth("Indianapolis");
+            allMeth("Indiana");
 
             Console.WriteLine(allMeth.GetInvocationList().GetLength(0));
 
-
+            Console.WriteLine("this was added");
 
 
             Console.Read();
